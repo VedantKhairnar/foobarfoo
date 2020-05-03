@@ -76,32 +76,32 @@ Level 5:   0% [..........................................]
 Type request to request a new challenge now, or come back later.
 """
 def answer(xs):
-    positives = [num for num in xs if num > 0]
-    negatives = [num for num in xs if num < 0]
-    npos = len(positives)
-    nneg = len(negatives)
+    p = [i for i in xs if i > 0]
+    n = [i for i in xs if i < 0]
+    lpos = len(p)
+    lneg = len(n)
     energy = 1
-    if (npos == 0 and nneg == 1) or (npos == 0 and nneg == 0):
+    if (lpos == 0 and lneg == 1) or (lpos == 0 and lneg == 0):
         return xs[0]
-    elif npos == 0:
-        if nneg % 2 == 1:
-            negatives.remove(max(negatives))
-            nneg -= 1
-        for num in negatives:
-            energy *= num
+    elif lpos == 0:
+        if lneg % 2 == 1:
+            n.remove(max(n))
+            lneg -= 1
+        for i in n:
+            energy *= i
         return energy
-    elif nneg == 0 or nneg == 1:
-        for num in positives:
-            energy *= num
+    elif lneg == 0 or lneg == 1:
+        for i in p:
+            energy *= i
         return energy
     else:
-        if nneg % 2 == 1:
-            negatives.remove(max(negatives))
-        for num in positives:
-            energy *= num
-        if nneg > 0:
-            for num in negatives:
-                energy *= num
+        if lneg % 2 == 1:
+            n.remove(max(n))
+        for i in p:
+            energy *= i
+        if lneg > 0:
+            for i in n:
+                energy *= i
         return energy
 
 
