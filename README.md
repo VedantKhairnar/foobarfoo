@@ -11,7 +11,7 @@ Solutions to my Foobar challenge
     [Y]es or [N]o: Y
     Submitting solution...
     You survived a week in Commander Lambda's organization, and you even managed to get yourself promoted. Hooray! Henchmen still don't have the kind of security access you'll need to take down Commander Lambda, though, so you'd better keep working. Chop chop!
-    Submission: SUCCESSFUL. Completed in: 28 mins, 24 secs.
+    Submission: SUCCESSFUL. 
 
 
 
