@@ -15,7 +15,8 @@ That number is the starting index in that string of primes, and the minion's new
 So if a minion draws "3", their ID number will be "71113".
 
 Help the Commander assign these IDs by writing a function solution(n) which takes in the starting index n of Lambda's string of all primes,
-and returns the next five digits in the string. Commander Lambda has a lot of minions, so the value of n will always be between 0 and 10000.
+and returns the next five digits in the string.
+Commander Lambda has a lot of minions, so the value of n will always be between 0 and 10000.
 
 Languages
 =========
@@ -62,7 +63,7 @@ Are you sure you want to submit your solution?
 [Y]es or [N]o: Y
 Submitting solution...
 You survived a week in Commander Lambda's organization, and you even managed to get yourself promoted. Hooray! Henchmen still don't have the kind of security access you'll need to take down Commander Lambda, though, so you'd better keep working. Chop chop!
-Submission: SUCCESSFUL. Completed in: 28 mins, 24 secs.
+Submission: SUCCESSFUL. Completed in: 18 mins, 24 secs.
 
 
 
